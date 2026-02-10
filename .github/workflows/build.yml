@@ -22,7 +22,8 @@ permissions:
   contents: write
 jobs:
   build:
-    name: Build ${{ matrix.arch }}-${{ matrix.sdk }}
+    #name: Build ${{ matrix.arch }}-${{ matrix.sdk }}
+    name: Build aarch64_cortex-a53-22.03.7
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
